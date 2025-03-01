@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wszystkiego Najlepszego!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Wszystkiego Najlepszego! 🎂</h1>
+        <p>Wpisz imię solenizanta:</p>
+        <input type="text" id="nameInput" placeholder="Twoje imię...">
+        <button onclick="showWishes()">Pokaż życzenia</button>
+        <div id="wishes" class="hidden">
+            <h2 id="personalWish"></h2>
+            <p>Dużo radości, zdrowia, spełnienia marzeń i niezapomnianych chwil!</p>
+            <button onclick="startConfetti()">🎊 Świętuj! 🎊</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="confetti.js"></script> <!-- Skrypt do confetti -->
+</body>
+</html>
